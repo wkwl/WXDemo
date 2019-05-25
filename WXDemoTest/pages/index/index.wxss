@@ -1,0 +1,26 @@
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color:#f4f4f4;
+}
+.swiper-container{
+  margin-top:0;
+  margin-left: 0;
+  position: relative;  
+  height: 560rpx;
+}
+/*轮播图  */
+.swiper-container .swiper{
+ padding-top: 0;
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.swiper-container .swiper .img{
+  margin-top: 0;
+  padding-top:0;
+  height: 100%;
+  width: 100%;
+}

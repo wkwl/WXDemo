@@ -1,0 +1,14 @@
+<view  class='container'>
+   <view wx:for="{{items}}" wx:data-item="item" wx:data-index="index" wx:key="id">
+   <!-- 自定义属性，使用data-加上自己定义的属性名 即可 如下添加的id 和title属性名 -->
+     <view  class='item' bindtap='click'  data-id='{{item.id}}' data-title='{{item.scenicname}}'  >
+       <image class='item_image' src='{{picurl}}{{item.listImgPath}}' lazy-load='true' />
+       <view class='item_title'>{{item.scenicname}}</view>
+       <view class='content'>{{item.summary}}</view>
+       <view class='line'></view>
+     </view>
+    </view>   
+    <view class='loadmore loading' wx:if="{{ hasMore }}">正在加载...</view>
+    <view class='loadmore' wx:else>已经加载完毕😒</view>
+</view>
+

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class = 'slider'>
+<!-- interval 自动切换时间间隔 duration 动画时长    -->
+    <swiper indicator-dots='true' autoplay='{{ true }}' interval='2500' duration='400' circular='{{ true }}'>
+        <swiper-item wx:for="{{ sliderList }}" wx:key="id">
+        <!-- mode有13种模式，其中4中缩放模式，9种是裁剪模式
+           aspectFill 保持纵横比缩放图片，只保证图片短边完全显示出来
+           widthFix 宽度不变，高度自动化，保持原图宽高比不变、
+           scaleTo 不保持纵横比缩放图片，是图片填满image -->
+           <!-- lazy-load 图片懒加载：即需要看到得时候才会加载 -->
+            <image src='{{picHeader}}{{item[0]}}' width='375' height='150' mode='aspectFill' lazy-load ='true' />
+        </swiper-item>
+    </swiper>
+</view>
