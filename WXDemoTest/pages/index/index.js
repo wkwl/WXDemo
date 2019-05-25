@@ -40,7 +40,25 @@ Page({
       complete: function () {
         // complete
       }
-    })
+    });
+    /* ---- 请求首页导航数据 ---- */
+    wx.request({
+      url: "https://locally.uieee.com/categories",
+      success: (res) => {
+        // console.log(res)
+        // res.data
+        // 1、设置页面的data数据
+        // this.data.sliderList = res.data;  这个写法不是微信小程序的标准
+        /*
+            this.setData 有2个功能:
+            1、更新数据
+            2、更新视图
+        */
+        this.setData({
+          navList: res.data
+        });
+      },
+    });
   },
   getUserInfo: function(e) {
     console.log(e)

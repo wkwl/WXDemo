@@ -12,3 +12,10 @@
         </swiper-item>
     </swiper>
 </view>
+<!-- 首页导航分区  -->
+<view class = 'index-nav bgw'>
+    <navigator wx:for="{{ navList }}" wx:key="id" class = 'nav-item bdr' url='/pages/shopList/shopList?cat={{ item.id }}&title={{ item.name }}'>
+        <image src = '{{ item.icon }}' lazy-load></image>
+        <text>{{ item.name}}</text>
+    </navigator> 
+</view>

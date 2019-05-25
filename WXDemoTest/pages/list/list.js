@@ -69,14 +69,14 @@ Page({
     //   url: '../logs/logs',
     // })
 
-    //2.wx.redirtTo（object）
+    //2.wx.redirtTo（object）关闭当前页面，跳转到应用内某个页面
     // wx.redirectTo({
     //   url: '../logs/logs',
     // })
-    //3.wx.reLaunch（object）
-    wx.reLaunch({
-      url: '../logs/logs',
-    })
+    //3.wx.reLaunch（object）关闭所有页面，打开应用某个页面
+    // wx.reLaunch({
+    //   url: '../logs/logs',
+    // })
   },
   /**
    * 生命周期函数--监听页面加载
