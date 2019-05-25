@@ -1,7 +1,7 @@
-微信小程序学习:\n
-1.小程序官网：https://developers.weixin.qq.com/miniprogram/dev/quickstart/basic/getstart.html#
+微信小程序学习:
+<h1>1.小程序官网：https://developers.weixin.qq.com/miniprogram/dev/quickstart/basic/getstart.html#></h1>
 
-2.小程序开发工具下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
+<h1>2.小程序开发工具下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html</h1>
 
 3.小程序代码构成：
 1).json 后缀的 JSON 配置文件
