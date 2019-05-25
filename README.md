@@ -4,10 +4,10 @@
 <h2>2.小程序开发工具下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html</h2>
 
 <h2>3.小程序代码构成：</h2>
-1).json 后缀的 JSON 配置文件
-2).wxml 后缀的 WXML 模板文件
-3).wxss 后缀的 WXSS 样式文件
-4).js 后缀的 JS 脚本逻辑文件
+<p>1).json 后缀的 JSON 配置文件</p>
+<p>2).wxml 后缀的 WXML 模板文件</p>
+<p>3).wxss 后缀的 WXSS 样式文件</p>
+<p>4).js 后缀的 JS 脚本逻辑文件</p>
 
 app.json 是当前小程序的全局配置，包括了小程序的所有页面路径、界面表现、网络超时时间、底部 tab 等.
 
