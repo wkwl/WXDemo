@@ -32,4 +32,4 @@ c.此外 WXSS 仅支持部分 CSS 选择器
 <h3>那你想跳转到自己的网站中就需要配置域名、下载校验文件。（ 个人类型与海外类型的小程序暂不支持使用web-view）
 
 进入到小程序后台 https://developers.weixin.qq.com   设置-开发设置 -业务域名</h3>
-<image src="https://img-blog.csdn.net/20181017134927353?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyMTEzNjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" />
+!(https://img-blog.csdn.net/20181017134927353?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyMTEzNjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
