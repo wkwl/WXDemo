@@ -1,9 +1,9 @@
 微信小程序学习:
-<h1>1.小程序官网：https://developers.weixin.qq.com/miniprogram/dev/quickstart/basic/getstart.html#></h1>
+<h2>1.小程序官网：https://developers.weixin.qq.com/miniprogram/dev/quickstart/basic/getstart.html#></h2>
 
-<h1>2.小程序开发工具下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html</h1>
+<h2>2.小程序开发工具下载地址：https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html</h2>
 
-<h1>3.小程序代码构成：</h1>
+<h2>3.小程序代码构成：</h2>
 1).json 后缀的 JSON 配置文件
 2).wxml 后缀的 WXML 模板文件
 3).wxss 后缀的 WXSS 样式文件
@@ -27,7 +27,7 @@ b.提供了全局的样式和局部样式。和前边 app.json, page.json 的概
 
 c.此外 WXSS 仅支持部分 CSS 选择器
 
-<h1>4.小程序可以跳转外部链接</h1>
+<h2>4.小程序可以跳转外部链接</h2>
    <p><b>需要配置业务域名并上传验证文件： 校验文件需要放在你要跳转到的网站的根目录下面才可以！！！也就是说你想跳转到别人网站网页里面 需要得到别人的同意！！</b></p>
 <h3>那你想跳转到自己的网站中就需要配置域名、下载校验文件。（ 个人类型与海外类型的小程序暂不支持使用web-view）
 
