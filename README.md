@@ -31,7 +31,7 @@ c.此外 WXSS 仅支持部分 CSS 选择器
    <p><b>需要配置业务域名并上传验证文件： 校验文件需要放在你要跳转到的网站的根目录下面才可以！！！也就是说你想跳转到别人网站网页里面 需要得到别人的同意！！</b></p>
 <h3>那你想跳转到自己的网站中就需要配置域名、下载校验文件。（ 个人类型与海外类型的小程序暂不支持使用web-view）
 
-进入到小程序后台 https://developers.weixin.qq.com   设置-开发设置 -业务域名</h3>
+进入到小程序后台 https://mp.weixin.qq.com/wxopen/devprofile?action=get_profile&token=1160686366&lang=zh_CN   开发-开发设置 -业务域名</h3>
 <p><image style="width:200px;height:100px" src="https://img-blog.csdn.net/20181017134927353?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyMTEzNjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"/></p>
 <p></p>
 <image  style="width:200px;height:100px" src="https://img-blog.csdn.net/20181017135019447?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyMTEzNjI5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" />
