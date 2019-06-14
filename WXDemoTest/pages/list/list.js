@@ -13,7 +13,7 @@ Page({
     items:[],
     picurl: picUrl,
     pageIndex: 0,
-    pageSize: 10,
+    pageSize: 1,
     catId: 1,
     // 记录是否还有数据
     hasMore: true
@@ -33,7 +33,7 @@ Page({
       },// 设置请求的 header
       success: function (res) {
         console.log(res);
-         var newlist = res.data.list;
+         var newlist = that.data.items.concat(res.data.list);
         var count = res.data.totalCount;
         var flag = that.data.pageIndex*that.data.pageSize<count;
         that.setData({
