@@ -13,7 +13,7 @@ Page({
     items:[],
     picurl: picUrl,
     pageIndex: 0,
-    pageSize: 1,
+    pageSize: 5,
     catId: 1,
     // 记录是否还有数据
     hasMore: true
